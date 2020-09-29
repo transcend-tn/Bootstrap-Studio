@@ -15,6 +15,17 @@
   margin-bottom: 5%;
 }
 
+label {
+}
+
 .btn:not(:disabled):not(.disabled) {
+}
+
+.clean-block.clean-form form {
+  margin-top: 5%;
+}
+
+.form-group {
+  margin-top: 5%;
 }
 
