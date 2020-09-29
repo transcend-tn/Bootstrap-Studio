@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Product - Brand</title>
+    <title>Register - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
@@ -21,51 +21,25 @@
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="Document.html">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Document.html">Documents</a></li>
                     <li class="nav-item"><a class="nav-link" href="login.html">s'identifier</a></li>
-                    <li class="nav-item"><a class="nav-link" href="inscription.html">s'inscrire</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="inscription.html">s'inscrire</a></li>
                     <li class="nav-item"><a class="nav-link" href="Profile.html">profil</a></li>
                     <li class="nav-item"></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="page product-page">
-        <section class="clean-block clean-product dark">
+    <main class="page registration-page">
+        <section class="clean-block clean-form dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">Document Page</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing&nbsp;</p>
+                    <h2 class="text-info">Inscription</h2>
                 </div>
-                <div class="block-content">
-                    <div class="product-info">
-                        <div>
-                            <ul class="nav nav-tabs" role="tablist" id="myTab">
-                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" id="description-tab" href="#description">Document</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="specifications-tabs" href="#specifications">Demandes Modifications</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="reviews-tab" href="#reviews">Historique</a></li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane active fade show description" role="tabpanel" id="description">
-                                    <h2>Title</h2>
-                                    <p class="text-left"><br><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                        of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                        the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br></p>
-                                </div>
-                                <div class="tab-pane fade show specifications" role="tabpanel" id="specifications">
-                                    <div class="reviews">
-                                        <div class="review-item">
-                                            <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-empty.svg"></div>
-                                            <h4>Incredible product</h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade show" role="tabpanel" id="reviews"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <form>
+                    <div class="form-group"><label for="name">Nom d'utilisateur</label><input class="form-control item" type="text" id="name" required=""></div>
+                    <div class="form-group"><label for="password">Mot de passe</label><input class="form-control item" type="password" id="password" required=""></div>
+                    <div class="form-group"><label for="email">Email</label><input class="form-control item" type="email" id="email" required=""></div><button class="btn btn-primary btn-block" type="submit">Créer un compte</button></form>
             </div>
         </section>
     </main>

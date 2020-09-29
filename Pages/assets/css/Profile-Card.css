@@ -29,3 +29,18 @@ label {
   margin-top: 5%;
 }
 
+.btn-toolbar {
+  margin-top: 5%;
+}
+
+.btn:not(:disabled):not(.disabled) {
+}
+
+.btn:not(:disabled):not(.disabled) {
+  margin-left: 5%;
+}
+
+.fa.fa-user-circle-o {
+  margin-left: -75px;
+}
+
