@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Product - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Timeline.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-DataTables.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="assets/css/History-Lineal.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/Profile-Card.css">
+    <link rel="stylesheet" href="assets/css/progress-bars.css">
+    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#">LOGO</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="document.html">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">s'identifier</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inscription.html">s'inscrire</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="profil.html">profil</a></li>
+                    <li class="nav-item" style="text-align: center;margin: 5px;">
+                        <div class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Nouveau</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#"><i class="fa fa-upload" style="font-size: 20px;"></i>&nbsp; Import</a><a class="dropdown-item" href="#"><i class="fa fa-file-text" style="font-size: 20px;"></i>&nbsp; Document vierge</a>
+                                <div
+                                    class="dropdown-divider"></div>
+                            <div class="dropdown-divider"></div>
+                        </div>
+            </div>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page product-page">
+        <section class="clean-block clean-product dark">
+            <div class="container">
+                <div class="block-content">
+                    <div class="product-info">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-5">
+                                <div class="text-center profile-card" style="margin:15px;background-color:#ffffff;">
+                                    <div class="profile-card-img" style="background-image:url(&quot;iceland.jpg&quot;);height:150px;background-size:cover;"></div>
+                                    <div><img class="rounded-circle" style="margin-top:-70px;" src="assets/img/avatar-dhg.png" height="150px">
+                                        <h3>Joseph Mancuso</h3>
+                                    </div>
+                                    <div class="row" style="padding:0;padding-bottom:10px;padding-top:20px;">
+                                        <div class="col-md-6">
+                                            <p class="text-nowrap text-right">Documents</p>
+                                            <p class="text-right"><strong>12M</strong> </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="text-left">Groupes</p>
+                                            <p class="text-left"><strong>1M</strong> </p>
+                                        </div>
+                                        <div class="col"><button class="btn btn-light btn-sm" type="button">Editer le Profil</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-7">
+                                <div class="product-info">
+                                    <div>
+                                        <ul class="nav nav-tabs" role="tablist" id="myTab">
+                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="description-tab" href="#description">Documents</a></li>
+                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="specifications-tabs" href="#specifications">Demandes PR</a></li>
+                                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" id="reviews-tab" href="#reviews">Invitations</a></li>
+                                        </ul>
+                                        <div class="tab-content" id="myTabContent">
+                                            <div class="tab-pane fade show description" role="tabpanel" id="description">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title"><a href="#">Document 1</a></h5>
+                                                        <h6 class="text-muted card-subtitle mb-2">@owner</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title"><a href="#">Document 2</a></h5>
+                                                        <h5 class="card-title"></h5>
+                                                        <h6 class="text-muted card-subtitle mb-2">@owner<br></h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title"><a href="#">Document 3</a></h5>
+                                                        <h6 class="text-muted card-subtitle mb-2">@owner<br></h6>
+                                                    </div>
+                                                </div>
+                                                <nav>
+                                                    <ul class="pagination">
+                                                        <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                            <div class="tab-pane fade show specifications" role="tabpanel" id="specifications">
+                                                <div class="table-responsive table-bordered">
+                                                    <table class="table table-bordered">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="stat">Titre Doc</td>
+                                                                <td>Etat de Demande</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="stat"><strong>Titre Doc</strong><br></td>
+                                                                <td>Etat de Demande<br></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="stat"><strong>Titre Doc</strong><br></td>
+                                                                <td>Etat de Demande<br></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="stat"><strong>Titre Doc</strong><br></td>
+                                                                <td>Etat de Demande<br></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <nav>
+                                                    <ul class="pagination">
+                                                        <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                            <div class="tab-pane active fade show" role="tabpanel" id="reviews">
+                                                <div class="reviews">
+                                                    <div class="review-item">
+                                                        <h4>Titre de Document</h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
+                                                        <div class="btn-toolbar"></div><button class="btn btn-primary" type="button" style="text-align: center;">Accepter</button><button class="btn btn-primary" type="button">Refuser</button></div>
+                                                </div>
+                                                <div class="reviews">
+                                                    <div class="review-item">
+                                                        <h4><strong>Titre de Document</strong><br></h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
+                                                        <div class="btn-toolbar"></div><button class="btn btn-primary" type="button">Accepter</button><button class="btn btn-primary" type="button">Refuser</button></div>
+                                                </div>
+                                                <div class="reviews">
+                                                    <div class="review-item">
+                                                        <h4><strong>Titre de Document</strong><br></h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
+                                                        <div class="btn-toolbar"></div><button class="btn btn-primary" type="button">Accepter</button><button class="btn btn-primary" type="button">Refuser</button></div>
+                                                </div>
+                                                <nav>
+                                                    <ul class="pagination">
+                                                        <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Copyright Text</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/Bootstrap-DataTables.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/History-Lineal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>

@@ -7,9 +7,19 @@
     <title>Product - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Timeline.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-DataTables.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="assets/css/History-Lineal.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="assets/css/Profile-Card.css">
+    <link rel="stylesheet" href="assets/css/progress-bars.css">
     <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
 </head>
@@ -21,47 +31,119 @@
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="Document.html">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="document.html">Documents</a></li>
                     <li class="nav-item"><a class="nav-link" href="login.html">s'identifier</a></li>
                     <li class="nav-item"><a class="nav-link" href="inscription.html">s'inscrire</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Profile.html">profil</a></li>
-                    <li class="nav-item"></li>
-                </ul>
+                    <li class="nav-item"><a class="nav-link" href="profil.html">profil</a></li>
+                    <li class="nav-item" style="text-align: center;margin: 5px;">
+                        <div class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Nouveau</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#"><i class="fa fa-upload" style="font-size: 20px;"></i>&nbsp; Import</a><a class="dropdown-item" href="#"><i class="fa fa-file-text" style="font-size: 20px;"></i>&nbsp; Document vierge</a>
+                                <div
+                                    class="dropdown-divider"></div>
+                            <div class="dropdown-divider"></div>
+                        </div>
             </div>
+            </li>
+            </ul>
+        </div>
         </div>
     </nav>
     <main class="page product-page">
         <section class="clean-block clean-product dark">
             <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">Document Page</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing&nbsp;</p>
-                </div>
                 <div class="block-content">
                     <div class="product-info">
                         <div>
                             <ul class="nav nav-tabs" role="tablist" id="myTab">
-                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" id="description-tab" href="#description">Document</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="specifications-tabs" href="#specifications">Demandes Modifications</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="reviews-tab" href="#reviews">Historique</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="description-tab" href="#description">Document</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" id="specifications-tabs" href="#specifications">Propositions de Modifications</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" id="reviews-tab" href="#reviews">Historique</a></li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane active fade show description" role="tabpanel" id="description">
-                                    <h2>Title</h2>
+                                <div class="tab-pane fade show description" role="tabpanel" id="description">
+                                    <div class="col-lg-10 offset-lg-9"><button class="btn btn-primary" type="button">Proposer une Modification&nbsp;<br></button></div>
+                                    <h2>Titre&nbsp;&nbsp;</h2><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
                                     <p class="text-left"><br><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                                         of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
                                         the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br></p>
                                 </div>
                                 <div class="tab-pane fade show specifications" role="tabpanel" id="specifications">
                                     <div class="reviews">
+                                        <article class="review-item">
+                                            <h4>Titre de proposition</h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><a class="btn btn-primary"
+                                                role="button" href="vote.html">Voter</a></article>
                                         <div class="review-item">
-                                            <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-empty.svg"></div>
-                                            <h4>Incredible product</h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
+                                            <h4>Titre de proposition</h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><a class="btn btn-primary"
+                                                role="button" href="vote.html">Voter</a></div>
+                                        <div class="review-item">
+                                            <h4>Titre de proposition</h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><a class="btn btn-primary"
+                                                role="button" href="vote.html">Voter</a></div>
+                                        <div class="review-item">
+                                            <h4>Titre de proposition</h4><span class="text-muted"><a href="#">John Smith</a>, 20 Jan 2018</span>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><a class="btn btn-primary"
+                                                role="button" href="vote.html">Voter</a></div>
                                     </div>
+                                    <nav>
+                                        <ul class="pagination">
+                                            <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                        </ul>
+                                    </nav>
                                 </div>
-                                <div class="tab-pane fade show" role="tabpanel" id="reviews"></div>
+                                <div class="tab-pane active fade show" role="tabpanel" id="reviews"><div class="timeline">
+<div class="container py-5">
+
+        <div class="row">
+            <div class="col-lg-7 mx-auto">
+                
+                <!-- Timeline -->
+                <ul class="timeline">
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Auteur </h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>21 March, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Message</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Auteur</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>5 April, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Message</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Auteur</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>18 August, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Message</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Auteur</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>10 October, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Message</p>
+                    </li>
+                </ul><!-- End -->
+
+            </div>
+        </div>
+    </div>
+    </div>
+                                    <nav>
+                                        <ul class="pagination">
+                                            <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -112,9 +194,16 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/Bootstrap-DataTables.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/History-Lineal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
