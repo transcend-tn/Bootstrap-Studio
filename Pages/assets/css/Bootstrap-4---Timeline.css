@@ -59,3 +59,7 @@ li.timeline-item::before {
   /*height: 900%;*/
 }
 
+.btn:not(:disabled):not(.disabled) {
+  margin-top: 5%;
+}
+
