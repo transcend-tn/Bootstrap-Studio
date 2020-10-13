@@ -90,8 +90,8 @@ textarea {
 }
 
 div {
-  width: 100%;
-  height: 100%;
+  /*width: 100%;*/
+  /*height: 100%;*/
 }
 
 div {
@@ -99,5 +99,9 @@ div {
 
 #description {
   width: 100%;
+}
+
+.fa.fa-star {
+  float: right;
 }
 
